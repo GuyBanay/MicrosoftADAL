@@ -9,6 +9,7 @@ namespace TestADAL
 {
     public interface IAuthenticator
     {
+        //IAuthenticator
         Task<AuthenticationResult> Authenticate(string authority, string clientId, string returnUri, string policy);
     }
 }
